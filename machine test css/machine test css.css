@@ -1,0 +1,97 @@
+
+body{
+    height: 100vh;
+}
+.nav{
+    border: 2px solid brown;
+    /* width: 100%; */
+    border-radius: 12px;
+    background-color: white;
+    
+}
+
+.nav img{
+    width: 100px;
+    margin-left: 12px;
+}
+.nav ul{
+    float: right;
+    margin-top: 29px;
+    margin-right: 25px;
+  
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 19px;
+    font-size: large;
+    color: brown;
+   
+}
+.main{
+    border: 1px solid brown;
+    height: 100vh;
+    
+    border-radius: 12px;
+    width: 100%;
+    background-color: black;
+}
+.content img{
+    width: 650px;
+    height: 500px;
+    position: absolute;
+    left: 200px;
+    top: 250px;
+    border-radius: 3px 50px 3px 50px;
+
+}
+.content{
+    background-color: black;
+}
+.content h2{
+    color: white;
+    position: absolute;
+    left: 55rem;
+    top: 500px;
+    font-weight: 12px;
+    font-size: 32px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: brown;
+}
+
+.gallery img{
+    width: 400px;
+    margin-top: 7px;
+    margin-left: 10px;
+
+}
+
+.gallery{
+    display: grid;
+    height: 100vh;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+   grid-template-areas: 'one one' 'two two' 'three three';
+
+}
+p{
+    color: white;
+    width: 70%;
+    position: absolute;
+    top: 300px;
+    left: 230px;
+    
+}
+.abt h1{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+.abt{
+
+}
